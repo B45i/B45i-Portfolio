@@ -34,7 +34,7 @@ li {
 
 a {
     text-decoration: none;
-    // color: $text-secondary;
+    color: $text-secondary;
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
@@ -65,20 +65,24 @@ a {
     gap: 1rem;
     justify-content: space-between;
     align-items: flex-start;
-    overflow: hidden;
 }
 
 .cards {
+    flex-basis: 75%;
     flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
     & > * {
         background-color: $bg-lite-1;
         flex-grow: 2;
         padding: 1rem;
+        flex-basis: 49%; // ? Todo
     }
 }
 
 .profile {
-    // flex-grow: 1;
+    flex-grow: 1;
     align-self: stretch;
     background-color: $bg-lite-2;
     padding: 1rem;
@@ -115,4 +119,7 @@ a {
     &-item {
         margin-top: 1rem;
     }
+}
+
+.projects-card {
 }

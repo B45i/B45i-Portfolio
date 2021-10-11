@@ -106,6 +106,21 @@ a {
         color: $text-secondary;
         margin-bottom: 1rem;
     }
+
+    &-links {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-bottom: 1rem;
+
+        a {
+            font-size: 1.5rem;
+            color: $text-secondary;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
 }
 
 .experinces {
@@ -161,5 +176,4 @@ a {
     gap: 0.7rem;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 19vw; // todo @media
 }

@@ -135,6 +135,16 @@ a {
   .profile-title {
     color: #cb3613;
     margin-bottom: 1rem; }
+  .profile-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem; }
+    .profile-links a {
+      font-size: 1.5rem;
+      color: #cb3613; }
+      .profile-links a:hover {
+        transform: scale(1.2); }
 
 .experinces-title {
   display: flex;
@@ -174,5 +184,4 @@ a {
   display: flex;
   gap: 0.7rem;
   flex-wrap: wrap;
-  justify-content: center;
-  max-width: 19vw; }
+  justify-content: center; }

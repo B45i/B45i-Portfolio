@@ -84,6 +84,11 @@ a {
 .title-secondary {
   color: #cb3613; }
 
+.badges {
+  display: flex;
+  gap: 0.3rem;
+  flex-wrap: wrap; }
+
 .badge {
   background-color: #cb3613;
   color: #fff;
@@ -93,13 +98,11 @@ a {
 .resume {
   width: 100%;
   height: 100%;
-  border-radius: 1rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: space-between;
-  align-items: flex-start;
-  overflow: hidden; }
+  align-items: flex-start; }
 
 .cards {
   flex-basis: 75%;
@@ -113,6 +116,7 @@ a {
     background-color: #fdeae3;
     flex-grow: 2;
     padding: 1rem;
+    border-radius: 1rem;
     flex-basis: 49%; }
 
 .profile {
@@ -124,7 +128,8 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  border-radius: 1rem; }
   .profile-image {
     width: 12rem;
     height: 12rem;
@@ -172,12 +177,6 @@ a {
       margin: 5px 0.5rem 0 0;
       border-radius: 50%; }
 
-.profile-badges {
-  display: flex;
-  gap: 0.7rem;
-  flex-wrap: wrap;
-  justify-content: center; }
-
 .card-item:not(:last-child)::after {
   content: '';
   width: 75%;
@@ -185,3 +184,15 @@ a {
   background-color: #fbd9cf;
   display: block;
   margin: 2.2rem auto 2rem; }
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 1rem; }
+  .cards {
+    height: auto; } }
+
+::-webkit-scrollbar {
+  width: 0px; }
+
+::-webkit-scrollbar-track {
+  width: 0px; }

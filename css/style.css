@@ -92,7 +92,8 @@ a {
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: space-between;
-  align-items: flex-start; }
+  align-items: flex-start;
+  overflow: auto; }
 
 .cards {
   flex-basis: 75%;
@@ -134,3 +135,22 @@ a {
 
 .experinces-item {
   margin-top: 1rem; }
+
+.list-card ul {
+  padding: 1rem; }
+
+.list {
+  list-style: none; }
+  .list > li {
+    margin-bottom: 0.3rem;
+    display: flex;
+    align-items: flex-start; }
+    .list > li::before {
+      content: '';
+      min-width: 1rem;
+      background-color: #cb3613;
+      display: inline-block;
+      width: 1rem;
+      height: 1rem;
+      margin: 5px 0.5rem 0 0;
+      border-radius: 50%; }

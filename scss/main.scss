@@ -30,6 +30,7 @@ li {
 a {
     text-decoration: none;
     color: $text-secondary;
+    // todo on hover expanding border bottom
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
@@ -60,7 +61,7 @@ a {
     gap: 1rem;
     justify-content: space-between;
     align-items: flex-start;
-    // overflow: auto;
+    overflow: hidden; // todo media
 }
 
 .cards {
@@ -75,7 +76,7 @@ a {
         background-color: $bg-lite-1;
         flex-grow: 2;
         padding: 1rem;
-        flex-basis: 49%; // ? Todo
+        flex-basis: 49%;
     }
 }
 
@@ -113,10 +114,20 @@ a {
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin-bottom: 1rem;
     }
 
     &-item {
-        margin-top: 1rem;
+        &:not(:last-child) {
+            &::after {
+                content: '';
+                width: 75%;
+                height: 1px;
+                background-color: $bg-lite-2;
+                display: block;
+                margin: 2.2rem auto 2rem;
+            }
+        }
     }
 }
 
@@ -150,5 +161,5 @@ a {
     gap: 0.7rem;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 19vw;
+    max-width: 19vw; // todo @media
 }

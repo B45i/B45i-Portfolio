@@ -131,19 +131,6 @@ a {
         justify-content: space-between;
         margin-bottom: 1rem;
     }
-
-    &-item {
-        &:not(:last-child) {
-            &::after {
-                content: '';
-                width: 75%;
-                height: 1px;
-                background-color: $bg-lite-2;
-                display: block;
-                margin: 2.2rem auto 2rem;
-            }
-        }
-    }
 }
 
 .list-card {
@@ -176,4 +163,17 @@ a {
     gap: 0.7rem;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.card-item {
+    &:not(:last-child) {
+        &::after {
+            content: '';
+            width: 75%;
+            height: 1px;
+            background-color: $bg-lite-2;
+            display: block;
+            margin: 2.2rem auto 2rem;
+        }
+    }
 }

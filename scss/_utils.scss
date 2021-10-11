@@ -3,6 +3,14 @@
     align-items: center;
 }
 
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.g-1 {
+    gap: 1rem;
+}
+
 .jc-between {
     justify-content: space-between;
 }

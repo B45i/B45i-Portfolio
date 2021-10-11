@@ -2,6 +2,12 @@
   display: flex;
   align-items: center; }
 
+.f-wrap {
+  flex-wrap: wrap; }
+
+.g-1 {
+  gap: 1rem; }
+
 .jc-between {
   justify-content: space-between; }
 
@@ -81,7 +87,7 @@ a {
 .badge {
   background-color: #cb3613;
   color: #fff;
-  padding: 2px 5px;
+  padding: 2px 7px;
   border-radius: 5px; }
 
 .resume {
@@ -92,15 +98,16 @@ a {
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: space-between;
-  align-items: flex-start;
-  overflow: auto; }
+  align-items: flex-start; }
 
 .cards {
   flex-basis: 75%;
   flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem; }
+  gap: 1rem;
+  overflow: auto;
+  height: 100%; }
   .cards > * {
     background-color: #fdeae3;
     flex-grow: 2;
@@ -125,7 +132,8 @@ a {
   .profile-name {
     margin-top: 2rem; }
   .profile-title {
-    color: #cb3613; }
+    color: #cb3613;
+    margin-bottom: 1rem; }
 
 .experinces-title {
   display: flex;
@@ -147,10 +155,17 @@ a {
     align-items: flex-start; }
     .list > li::before {
       content: '';
-      min-width: 1rem;
       background-color: #cb3613;
       display: inline-block;
+      min-width: 1rem;
       width: 1rem;
       height: 1rem;
       margin: 5px 0.5rem 0 0;
       border-radius: 50%; }
+
+.profile-badges {
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 19vw; }

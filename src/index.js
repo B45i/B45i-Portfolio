@@ -1,5 +1,5 @@
 import ListCard from './components/ListCard';
-import Profile from './components/profile';
+import Profile from './components/Profile';
 import TimeLine from './components/TimeLine';
 import {
     techTalks,

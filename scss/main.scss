@@ -1,10 +1,10 @@
 @import 'utils.scss';
 
-$bg-lite-1: #fdeae3;
-$bg-lite-2: #fbd9cf;
-$text-primary: #3d2c27;
-$text-secondary: #cb3613;
-$text-accent: #ab9b93;
+$bg-lite-1: #0b1f2a;
+$bg-lite-2: #040f1d;
+$text-primary: #ff547e;
+$text-secondary: #32ffcf;
+$text-accent: #00a577;
 
 *,
 *::after,
@@ -12,6 +12,7 @@ $text-accent: #ab9b93;
     margin: 0px;
     padding: 0px;
     box-sizing: inherit;
+    color: #fff;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
     font-family: 'Poppins', sans-serif;
     width: 100vw;
     height: 100vh;
-    background-color: #fff;
+    background-color: rgb(28, 29, 31);
     padding: 2rem;
 }
 
@@ -56,6 +57,7 @@ a {
     color: #fff;
     padding: 2px 7px;
     border-radius: 5px;
+    color: $bg-lite-1;
 }
 
 .resume {

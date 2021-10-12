@@ -167,6 +167,16 @@ a {
     margin-bottom: 0.3rem;
     display: flex;
     align-items: flex-start; }
+    .list > li p > a {
+      text-decoration: none;
+      background-image: linear-gradient(90deg, #fbd9cf, #cb3613);
+      background-repeat: no-repeat;
+      background-position: bottom left;
+      background-size: 0% 2px;
+      transition: background-size 500ms ease-in-out; }
+      .list > li p > a:hover {
+        background-size: 100% 2px;
+        color: inherit; }
     .list > li::before {
       content: '';
       background-color: #cb3613;

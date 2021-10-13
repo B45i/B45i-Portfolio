@@ -38,7 +38,7 @@ export const projects = {
     entries: [
         {
             title: 'Fish Feeding Device for Aquaponics',
-            url: '',
+            url: 'https://github.com/B45i/Fish-Feeder-App',
         },
         {
             title: 'App for Rajiv Gandhi Centre for Biotechnology',
@@ -46,23 +46,19 @@ export const projects = {
         },
         {
             title: 'Torrentzzz',
-            url: '',
+            url: 'https://torrentzzz.vercel.app/',
         },
         {
             title: 'Arduino Vaccine Display',
-            url: '',
+            url: 'https://github.com/B45i/Arduino-Cowin-Notifier',
         },
         {
             title: 'Malayalam Subtitles API',
-            url: '',
+            url: 'https://github.com/B45i/Malayalam-Subtitles-API',
         },
         {
             title: 'GitHub Trends API',
-            url: '',
-        },
-        {
-            title: 'Dhwani - FM Radio with WiFi',
-            url: '',
+            url: 'https://github.com/B45i/GitHub-Trends-API',
         },
     ],
 };
@@ -72,27 +68,27 @@ export const articles = {
     entries: [
         {
             title: 'Make a PoV Display with ATtiny13 for $1',
-            url: '',
+            url: 'https://www.hackster.io/B45i/make-a-pov-display-with-attiny13-for-1-e94b25',
         },
         {
             title: 'Get Vaccine availability with Arduino',
-            url: '',
-        },
-        {
-            title: 'DIY Handheld game console using Arduino (Arduboy)',
-            url: '',
+            url: 'https://www.hackster.io/B45i/get-vaccine-availability-with-arduino-f18f60',
         },
         {
             title: 'Getting Started with arduino-cli',
-            url: '',
+            url: 'https://www.hackster.io/B45i/getting-started-with-arduino-cli-7652a5',
         },
         {
             title: 'Dhwani - FM Radio with WiFi Connectivity',
-            url: '',
+            url: 'https://www.hackster.io/B45i/dhwani-fm-radio-with-wifi-connectivity-87a1e1',
         },
         {
             title: 'Talking Smart Glass for the Blind',
-            url: '',
+            url: 'https://www.hackster.io/B45i/talking-smart-glass-for-the-blind-87d31e',
+        },
+        {
+            title: 'DIY Handheld game console using Arduino (Arduboy)',
+            url: 'https://www.hackster.io/B45i/diy-handheld-game-console-using-arduino-arduboy-9ad352',
         },
     ],
 };

@@ -1,2 +1,3 @@
-node_modules/*
-*.webp
+node_modules
+/build
+/*.log

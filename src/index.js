@@ -10,6 +10,8 @@ import {
     profile,
 } from './data';
 
+import { printFancyLogs } from '../fancyLogs';
+
 import './style';
 
 export default function App() {
@@ -26,3 +28,5 @@ export default function App() {
         </div>
     );
 }
+
+printFancyLogs();

@@ -97,9 +97,14 @@ export const experience = {
     title: 'Experience',
     entries: [
         {
+            title: 'Krista - Software Engineer',
+            timePeriod: 'Nov 2021 - Present',
+            badges: ['React', 'JavaScript', 'TypeScript', 'HTML', 'CSS'],
+        },
+        {
             title: 'Enate - Product Engineer',
-            timePeriod: 'Jan 2020 - Nov 2021',
-            badges: ['Angular', 'TypeScript', 'CSS', 'SCSS', 'HTML'],
+            timePeriod: 'Jan 2020 - Oct 2021',
+            badges: ['Angular', 'TypeScript', 'HTML', 'CSS', 'SCSS'],
         },
         {
             title: 'CareStack - Product Solution Engineer',

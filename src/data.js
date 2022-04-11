@@ -37,12 +37,16 @@ export const projects = {
     title: 'Projects',
     entries: [
         {
-            title: 'Fish Feeding Device for Aquaponics',
-            url: 'https://github.com/B45i/Fish-Feeder-App',
+            title: 'Veechika - Online Malayalam Radio',
+            url: 'https://veechika.vercel.app/',
         },
         {
-            title: 'App for Rajiv Gandhi Centre for Biotechnology',
-            url: '',
+            title: 'Gau Mithra for Rajiv Gandhi Centre for Biotechnology',
+            url: 'https://play.google.com/store/apps/details?id=com.rgcb.app',
+        },
+        {
+            title: 'Fish Feeding Device for Aquaponics',
+            url: 'https://github.com/B45i/Fish-Feeder-App',
         },
         {
             title: 'Torrentzzz',
@@ -55,10 +59,6 @@ export const projects = {
         {
             title: 'Malayalam Subtitles API',
             url: 'https://github.com/B45i/Malayalam-Subtitles-API',
-        },
-        {
-            title: 'GitHub Trends API',
-            url: 'https://github.com/B45i/GitHub-Trends-API',
         },
     ],
 };
